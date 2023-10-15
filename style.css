@@ -1,0 +1,35 @@
+body{
+    overflow: hidden;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVnwjPM1WKErYliAg5LCsbOz_1yOVLuRE_EuxFjfixyw&s") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:0;
+    position: absolute;
+    /* overflow: hidden; */
+}
+.buttom{
+    color: rgb(5, 57, 58);
+    width: 97%;
+    margin-top: 1rem;
+    height: 248px;
+    /* background-color:transparent; */
+    border-top: 1px solid rgb(247, 247, 250);
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    /* border-radius: 5px; */
+    text-align: center;
+    /* box-shadow: 12px 16px 15px 3px rgba(71, 70, 64, 0.808); */
+}
+.remove{
+    width: 4rem;
+    height: 2rem;
+}
